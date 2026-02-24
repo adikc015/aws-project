@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 DB_USER = "root"
-DB_PASSWORD = "jaya@123"
+DB_PASSWORD = "Adi12345"
 DB_HOST = "localhost"
 DB_PORT = "3306"
 DB_NAME = "project1"
