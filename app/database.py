@@ -1,11 +1,11 @@
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-DB_USER = "root"
-DB_PASSWORD = "Adi12345"
+DB_USER = "appuser"
+DB_PASSWORD = "password"
 DB_HOST = "localhost"
 DB_PORT = "3306"
-DB_NAME = "project1"
+DB_NAME = "aws_project"
 
 # First connect without DB
 server_url = f"mysql+pymysql://{DB_USER}:{DB_PASSWORD.replace('@','%40')}@{DB_HOST}:{DB_PORT}"
